@@ -38,6 +38,11 @@ h5 {
     line-height: 1.25
 }
 
+.data_eve{
+    color:#412fb3;
+}
+
+
 h1,
 .h1 {
     font-size: 30px;
@@ -47,6 +52,27 @@ h1,
 
 .titulo_cabecalho{
     color: #fff;
+}
+
+.center{
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    height: 100vh; /* Faz com que a div ocupe 100% da altura da tela */
+}
+
+@media (min-width: 800px){
+    .esp{
+        height: 750px;
+    }
+
+    .esp1{
+        height: 170px;
+    }
+
+    .esp2{
+        height: 300px;
+    }
 }
 
 @media (min-width: 600px) {
