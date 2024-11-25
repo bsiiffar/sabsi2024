@@ -54,13 +54,6 @@ h1,
     color: #fff;
 }
 
-.center{
-    display: flex;
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    height: 100vh; /* Faz com que a div ocupe 100% da altura da tela */
-}
-
 @media (min-width: 800px){
     .esp{
         height: 750px;
@@ -180,7 +173,7 @@ h3,
 }
 
 .bg-magnolia {
-    background: #faf9ff
+    background: #f6f6f9
 }
 
 .header_area {
@@ -697,7 +690,7 @@ h3,
     padding: 30px 35px;
     border: 0;
     border-radius: 0;
-    background: #faf9ff;
+    background: #f6f6f9;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -749,7 +742,7 @@ h3,
 .offer-single__content {
     border: 0;
     border-radius: 0;
-    background: #faf9ff;
+    background: #f6f6f9;
     padding: 30px 23px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -829,7 +822,7 @@ h3,
 }
 
 .card-pricing {
-    background: #faf9ff;
+    background: #f6f6f9;
     border-radius: 3px;
     border: 0;
     -webkit-transition: all 0.3s ease 0s;
@@ -2047,3 +2040,32 @@ h3,
 .footer-area .footer-bottom .footer-social a span {
     font-size: 14px
 }
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media (min-width: 750px) {
+    .img-1{
+        border-radius: 25px;
+        height: auto;
+        width: 500px;
+        margin-left: 10em;
+    }
+}
+
+@media (max-width: 751px) {
+    .img-1{
+        border-radius: 25px;
+        height: auto;
+        width: 500px;
+        margin-left: 1em;
+    }
+}
+
